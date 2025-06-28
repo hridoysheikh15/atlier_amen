@@ -2,4 +2,8 @@
     .shape-nav {
         display: none;
     }
+
+    .landing-animation .hand-fixed {
+        height: 75dvh;
+    }
 }

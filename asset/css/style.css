@@ -155,6 +155,85 @@ a {
 }
 /* nav css end */
 
+/* landing section css start */
+.landing-animation {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #FFF5DF;
+}
+
+.landing-animation .leaf {
+    margin-top: -25px;
+}
+
+.img-shape {
+  height: 100%; 
+}
+
+.vertical-rotate {
+    transform: rotatey(180deg);
+}
+
+.h-35 {
+    height: 35%;
+}
+
+.ms-neg {
+    margin-inline-start: -3rem;
+}
+
+.col-05 {
+  flex: 0 0 auto;
+  width: 4.166666666666667%;
+}
+
+.landing-animation .logo-fixed {
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    min-width: 220px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.landing-animation .logo-fixed img {
+    width: 100%;
+}
+
+.landing-animation .hand-fixed { 
+    left: 50%;
+    z-index: -1;
+    width: 50dvw;
+    bottom: -25px;
+    display: grid;
+    min-width: 240px;
+    position: absolute;
+    transform: translateX(-50%);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.landing-animation .hand-fixed img {
+    width: 100%;
+}
+
+.landing-animation .flowers {
+    margin-bottom: -25px;
+    position: relative;
+    z-index: -2;
+}
+
+.wave-animation {
+    animation: waving 3000ms linear alternate;
+}
+
+@keyframes waving {
+    
+}
+/* landing section css end */
+
 /* home page css start */
 .recent-img-box {
     position: relative;

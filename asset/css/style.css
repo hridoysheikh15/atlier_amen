@@ -107,6 +107,22 @@ main {
     width: 100%;
     aspect-ratio: var(--ratio-vertical);
 }
+
+.scroll-up-anim {
+  animation: scrollUpFade 2000ms ease-out;
+}
+
+@keyframes scrollUpFade {
+  0% {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* custom library end here */
 
 /* nav css start */

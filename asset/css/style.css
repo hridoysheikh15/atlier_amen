@@ -370,6 +370,51 @@ main {
 }
 /* contact page css end */
 
+/* cart page design start */
+.quick-menu-list li {
+    padding: 8px 16px;
+    position: relative;
+}
+
+.quick-menu-list li::before {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    content: "";
+    width: 0%;
+    position: absolute;
+    background-color: #C8A2C8;
+    transition: 300ms all ease-in;
+}
+
+.quick-menu-list li:hover::before {
+    width: 100%;
+    transition: 500ms all ease-in;
+}
+
+.feature-banner {
+    width: 100%;
+    aspect-ratio: var(--ratio-vertical);
+}
+
+.art-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    aspect-ratio: var(--ratio-square);
+}
+
+.cart-box .table>:not(caption)>*>* {
+    color: var(--color);
+    background-color: transparent;
+}
+
+.qty-number-field {
+    width: 64px;
+}
+/* cart page design end */
+
 /* footer css start */
 footer h1 {
     font-size: var(--fs-page-title-vw);

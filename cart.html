@@ -135,9 +135,121 @@
     <main>
         <div class="content">
             <!-- cart top section start -->
-            <section class="banner-box">
+            <section class="banner-box px-4">
                 <div class="bg-banner-box">
-                    <h1>Cart</h1>
+                    <div class="row">
+                        <div class="col-md-3 playfair">
+                            <div class="box-border border border-1 border-light p-4 mb-4">
+                                <h4 class="cormorant">Quick Menu</h4>
+                                <hr class="opacity-100">
+                                <ol type="1" class="quick-menu-list">
+                                    <a href="./index.html">
+                                        <li>Home</li>
+                                    </a>
+                                    <a href="./about.html">
+                                        <li>About</li>
+                                    </a>
+                                    <a href="./contact.html">
+                                        <li>Say Hi</li>
+                                    </a>
+                                    <a href="./shop.html">
+                                        <li>Shop</li>
+                                    </a>
+                                    <a href="./exhibition.html">
+                                        <li>VIPS</li>
+                                    </a>
+                                </ol>
+                            </div>
+                            <a href="./category.html" class="feature-box mb-4">
+                                <img class="feature-banner mb-2" src="./asset/img/webimg/img-2.png" alt="Image Features" loading="lazy">
+                                <h4>Feature Portrait</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cart-box px-4 poppins mb-4">
+                                <div class="table-responsive">
+                                    <table class="table align-middle text-center">
+                                        <thead>
+                                            <tr>
+                                                <th>#SL</th>
+                                                <th>Art Info</th>
+                                                <th>QTY</th>
+                                                <th>Price</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>
+                                                    <div class="d-flex align-items-center gap-2">
+                                                        <img class="art-thumb" src="./asset/img/webimg/img-cat-1.png" alt="Cart Item Image" loading="lazy">
+                                                        <div>
+                                                            <h6 class="mb-2">The Swim of Shade</h6>
+                                                            <p class="m-0">$ 28.55/per unit</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <input class="form-control qty-number-field" type="number" name="qty" id="qty" min="1" max="99" value="2">
+                                                </td>
+                                                <td class="text-end">
+                                                    $ 57.10
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-outline-warning">
+                                                        <i class="ri-delete-bin-line"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>
+                                                    <div class="d-flex align-items-center gap-2">
+                                                        <img class="art-thumb" src="./asset/img/webimg/img-cat-2.png" alt="Cart Item Image" loading="lazy">
+                                                        <div>
+                                                            <h6 class="mb-2">The Swim of Shade</h6>
+                                                            <p class="m-0">$ 28.55/per unit</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <input class="form-control qty-number-field" type="number" name="qty" id="qty" min="1" max="99" value="2">
+                                                </td>
+                                                <td class="text-end">
+                                                    $ 57.10
+                                                </td>
+                                                <td>
+                                                    <button class="btn btn-outline-warning">
+                                                        <i class="ri-delete-bin-line"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 cormorant">
+                            <div class="box-border border border-1 border-light p-4 mb-4">
+                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
+                                    <p class="m-0"><span class="total_qty">2</span> Item</p>
+                                    <strong class="poppins">$ 114.20</strong>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
+                                    <p class="m-0">Shipping</p>
+                                    <strong class="poppins">$ 10.00</strong>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
+                                    <p class="m-0">Total</p>
+                                    <strong class="poppins">$ 124.20</strong>
+                                </div>
+                                <button class="btn btn-outline-light w-100 rounded-0 mt-3">
+                                    Process to checkout
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- cart top section end -->

@@ -108,7 +108,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="./cart.html">
+                                <a class="nav-link" href="./cart.html">
                                     Cart
                                     <span class="shape-nav">
                                         <img class="w-100" src="./asset/img/shape/shape-nav.png" alt="Navbar shape">
@@ -134,133 +134,34 @@
     <!-- main content start -->
     <main>
         <div class="content">
-            <!-- cart top section start -->
-            <section class="banner-box">
-                <div class="bg-banner-box" style="background-image: linear-gradient( rgb(0 0 0/ 50%), rgb(0 0 0 / 50%)), url('./asset/img/webimg/port-1-gallery.jpg');">
-                    <h1 class="jacques text-uppercase px-4">cart</h1>
-                </div>
-            </section>
-            <!-- cart top section end -->
-            
-            <!-- cart section start -->
-            <section class="cart-box section-gap px-4">
-                <div class="cart-all-box">
-                    <div class="row">
-                        <div class="col-md-3 playfair">
-                            <div class="box-border border border-1 border-light p-4 mb-4">
-                                <h4 class="cormorant">Quick Menu</h4>
-                                <hr class="opacity-100">
-                                <ol type="1" class="quick-menu-list">
-                                    <a href="./index.html">
-                                        <li>Home</li>
-                                    </a>
-                                    <a href="./about.html">
-                                        <li>About</li>
-                                    </a>
-                                    <a href="./contact.html">
-                                        <li>Say Hi</li>
-                                    </a>
-                                    <a href="./shop.html">
-                                        <li>Shop</li>
-                                    </a>
-                                    <a href="./exhibition.html">
-                                        <li>VIPS</li>
-                                    </a>
-                                </ol>
-                            </div>
-                            <a href="./category.html" class="feature-box mb-4">
-                                <img class="feature-banner mb-2" src="./asset/img/webimg/img-2.png" alt="Image Features" loading="lazy">
-                                <h4>Feature Portrait</h4>
-                            </a>
+            <!-- login-form start -->
+            <section class="login-form px-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="d-none d-md-block">
+                            <img class="login-thumb" src="" alt="Art time" loading="lazy">
                         </div>
-                        <div class="col-md-6">
-                            <div class="cart-box px-4 poppins mb-4">
-                                <div class="table-responsive">
-                                    <table class="table align-middle text-center">
-                                        <thead>
-                                            <tr>
-                                                <th>#SL</th>
-                                                <th>Art Info</th>
-                                                <th>QTY</th>
-                                                <th>Price</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1.</td>
-                                                <td>
-                                                    <div class="d-flex align-items-center gap-2">
-                                                        <img class="art-thumb" src="./asset/img/webimg/img-cat-1.png" alt="Cart Item Image" loading="lazy">
-                                                        <div>
-                                                            <h6 class="mb-2">The Swim of Shade</h6>
-                                                            <p class="m-0">$ 28.55/per unit</p>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <input class="form-control qty-number-field" type="number" name="qty" id="qty" min="1" max="99" value="2">
-                                                </td>
-                                                <td class="text-end">
-                                                    $ 57.10
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn-outline-warning">
-                                                        <i class="ri-delete-bin-line"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>2.</td>
-                                                <td>
-                                                    <div class="d-flex align-items-center gap-2">
-                                                        <img class="art-thumb" src="./asset/img/webimg/img-cat-2.png" alt="Cart Item Image" loading="lazy">
-                                                        <div>
-                                                            <h6 class="mb-2">The Swim of Shade</h6>
-                                                            <p class="m-0">$ 28.55/per unit</p>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <input class="form-control qty-number-field" type="number" name="qty" id="qty" min="1" max="99" value="2">
-                                                </td>
-                                                <td class="text-end">
-                                                    $ 57.10
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn-outline-warning">
-                                                        <i class="ri-delete-bin-line"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 cormorant">
-                            <div class="box-border border border-1 border-light p-4 mb-4">
-                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
-                                    <p class="m-0"><span class="total_qty">2</span> Item</p>
-                                    <strong class="poppins">$ 114.20</strong>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
-                                    <p class="m-0">Shipping</p>
-                                    <strong class="poppins">$ 10.00</strong>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap">
-                                    <p class="m-0">Total</p>
-                                    <strong class="poppins">$ 124.20</strong>
-                                </div>
-                                <a href="./checkout.html" class="btn btn-outline-light w-100 rounded-0 mt-3">
-                                    Process to checkout
-                                </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-4">
+                            <div class="form-box-container jacques">
+                                <form action="#" method="post" enctype="multipart/form-data">
+                                    <div class="row form-box">
+                                        <div class="col-md-12 mb-4">
+                                            <label class="form-label" for="mail">Email</label>
+                                            <input class="form-control" type="email" name="mail" id="mail" placeholder="Enter your registered mail">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <input class="btn btn-dark" type="submit" value="Submit">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- cart section end -->
+            <!-- login-form end -->
         </div>
     </main>
     <!-- main content end -->

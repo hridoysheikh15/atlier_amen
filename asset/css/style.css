@@ -435,13 +435,26 @@ main {
 }
 /* checkout page design end */
 
-/* ---------------------
-Auth css section start
- -----------------------*/
+/* -------------------------
+    Auth css section start
+ ----------------------------*/
+
+/* Library css for auth start */
+.bg-auth-images {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Library css for auth end */
 
 /* login page css start */
 .form-box-container {
-    padding: 24px;
+    padding: 32px;
+    backdrop-filter: blur(2px);
     border: 1px solid #fff;
     border-radius: var(--curve-sm);
 }

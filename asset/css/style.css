@@ -108,6 +108,14 @@ main {
     aspect-ratio: var(--ratio-vertical);
 }
 
+.limited-text {
+    overflow: hidden;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
 .scroll-up-anim {
   animation: scrollUpFade 2000ms ease-out;
 }
@@ -325,6 +333,26 @@ main {
 .portrait-box img {
     width: 100%;
     aspect-ratio: var(--ratio-vertical);    
+}
+
+.feature-portrait-box {
+    transition: 300ms all ease;
+    border: 1px solid var(--primary);
+}
+
+.feature-portrait-box:hover {
+    border: 1px solid var(--color);
+    transition: 750ms all ease;
+}
+
+.feature-portrait-box:hover img {
+    transform: scale(1.05);
+    transition: 750ms all ease;
+}
+
+.feature-portrait-box img {
+    transition: 300ms all ease;
+    aspect-ratio: var(--ratio-horizontal);
 }
 /* home page css end */
 

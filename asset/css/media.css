@@ -2,8 +2,19 @@
     .shape-nav {
         display: none;
     }
-
+    
     .landing-animation .hand-fixed {
         height: 75dvh;
+    }
+}
+
+@media (min-width: 1250px) {    
+    .col-01-5 {
+        flex: 0 0 auto;
+        width: 14.285%;
+    }
+
+    .col-01-5 h4 {
+        font-size: 18px;
     }
 }

@@ -526,6 +526,25 @@ main {
 }
 /* checkout page design end */
 
+/* profile page css start */
+.profile-box {
+    backdrop-filter: blur(8px);
+    border: 1px solid #bbb;
+    border-radius: var(--curve-sm);
+}
+
+.profile-img img {
+    width: 150px; 
+    object-fit: cover;
+    aspect-ratio: var(--ratio-square);
+    border-radius: var(--curve-circle);
+}
+
+.border-start {
+    border-inline-start: 1px solid #bbb;
+}
+/* profile page css end */
+
 /* -------------------------
     Auth css section start
  ----------------------------*/

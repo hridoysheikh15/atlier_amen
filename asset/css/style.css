@@ -527,6 +527,11 @@ main {
 /* checkout page design end */
 
 /* profile page css start */
+.bg-portrait-profile {
+    background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url("./../img/webimg/bg-contact.jpg");
+    background-size: cover;
+}
+
 .profile-box {
     backdrop-filter: blur(8px);
     border: 1px solid #bbb;

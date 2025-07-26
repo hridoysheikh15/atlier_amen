@@ -18,6 +18,14 @@ $(document).ready(function () {
             
         }
     })
+
+    $("scroll-up-anim").on("click", function() {
+        let animate = $("animate-to-scroll")
+
+        animate.removeClass("scroll-up-anim");
+        void animate[0].offsetWidth;
+        animate.addClass("scroll-up-anim");
+    })
 });
 
 

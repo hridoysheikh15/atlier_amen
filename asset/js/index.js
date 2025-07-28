@@ -26,39 +26,7 @@ $(document).ready(function () {
         void animate[0].offsetWidth;
         animate.addClass("scroll-up-anim");
     })
-
-    // $('.thumb').on('click', function () {
-    //     const type = $(this).data('type');
-    //     const video = $('#video_previewer');
-    //     const img = $('#img_previewer');
-    //     const youtube = $('#youtube_previewer');
-
-    //     // Remove active class from all, add to clicked
-    //     $('.thumb').removeClass('active');
-    //     $(this).addClass('active');
-
-    //     // Hide all previews with fade
-    //     $('.indi-img-preview').fadeOut(0, function () {
-    //         $(this).hide();
-    //     });
-
-    //     if (type == 'video') {
-    //         const src = $(this).find('video').attr('src');
-    //         video.attr('src', src).attr('hidden', false).show().fadeIn(300)[0].play();
-    //     } else if (type == 'img') {
-    //         const src = $(this).find('img').attr('src');
-    //         img.attr('src', src).attr('hidden', false).show().fadeIn(300);
-    //     } else if (type == 'youtube') {
-    //         const ytSrc = $(this).data('youtube') + "?autoplay=1";
-    //         youtube.attr('src', ytSrc).attr('hidden', false).show().fadeIn(300);
-    //     }
-
-    //     // Stop video and YouTube when switching
-    //     video[0].pause();
-    //     video.attr('src', '');
-    //     youtube.attr('src', '');
-    // });
-
+    
     $('#img_previewer').hide();
 });
 

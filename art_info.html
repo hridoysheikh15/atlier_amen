@@ -134,46 +134,52 @@
             <!-- portrait information start -->
             <section class="section-gap px-4">
                 <div class="row">
-                    <div class="col-md-4 mb-4">
+                    <!-- <div class="col-md-4 mb-4">
                         <div class="indi-img-box" data-aos="flip-left" data-aos-duration="2000">
                             <video src="./asset/video/art_info.mp4" controls autoplay></video>
                         </div>
-                    </div>
-                    <div class="col-sm-4 mb-4">
+                    </div> -->
+                    <div class="col-sm-6 mb-4">
                         <div class="indi-img-box" data-aos="flip-left" data-aos-duration="2000">
-                            <img src="./asset/img/webimg/port-1-gallery.jpg" alt="Gallery Preview" id="indi-img-preview"
+                            <video src="./asset/video/art_info.mp4" class="indi-img-preview" id="video_previewer" controls autoplay></video>
+                            <img src="./asset/img/webimg/port-1-gallery.jpg" alt="Gallery Preview" class="indi-img-preview" id="img_previewer"
                                 loading="lazy">
                         </div>
                         <div class="indi-img-gallery my-4">
                             <div class="row">
                                 <div class="col-3 p-3">
                                     <div class="active">
+                                        <video src="./asset/video/art_info.mp4" onclick="setPreviewImg(this, 'video')" muted></video>
+                                    </div>
+                                </div>
+                                <div class="col-3 p-3">
+                                    <div>
                                         <img src="./asset/img/webimg/port-1-gallery.jpg" alt="portrait preview"
-                                            onclick="setPreviewImg(this)" loading="lazy">
+                                            onclick="setPreviewImg(this, 'img')" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="col-3 p-3">
                                     <div>
                                         <img src="./asset/img/webimg/port-2-gallery.jpg" alt="portrait preview"
-                                            onclick="setPreviewImg(this)" loading="lazy">
+                                            onclick="setPreviewImg(this, 'img')" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="col-3 p-3">
                                     <div>
                                         <img src="./asset/img/webimg/port-3-gallery.jpg" alt="portrait preview"
-                                            onclick="setPreviewImg(this)" loading="lazy">
+                                            onclick="setPreviewImg(this, 'img')" loading="lazy">
                                     </div>
                                 </div>
                                 <div class="col-3 p-3">
                                     <div>
                                         <img src="./asset/img/webimg/port-2-gallery.jpg" alt="portrait preview"
-                                            onclick="setPreviewImg(this)" loading="lazy">
+                                            onclick="setPreviewImg(this, 'img')" loading="lazy">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 mb-4">
+                    <div class="col-sm-6 mb-4">
                         <div data-aos="fade-up" data-aos-duration="2000">
                             <div class="bg-shape-title title-c">
                                 <center>
